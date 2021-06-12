@@ -8,10 +8,10 @@ gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
-# haml
+gem 'bootstrap-sass', '3.3.7'
+# haml, rails haml:erb2haml
 gem 'haml-rails'
-# rake haml:convert_erbs
-gem 'erb2haml'
+
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
