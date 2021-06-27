@@ -1,10 +1,10 @@
 # https://zenn.dev/masaki_murano/articles/9877e45465ec6d
 name: CI Build
-on: [ push ]
-  # push:
-  #   branches: [ main ]
-  # pull_request:
-  #   branches: [ main ]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   run:
