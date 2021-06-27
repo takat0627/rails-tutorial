@@ -40,6 +40,9 @@ $ rails server
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
 
+# CI
+[![CI Build](https://github.com/takatea/rails-tutorial/actions/workflows/ci-build.yml/badge.svg)](https://github.com/takatea/rails-tutorial/actions/workflows/ci-build.yml)
+
 # Note
 2週目では1週目のフィードバックを参考に以下を意識してチュートリアルに取り組む．
 - コミットの粒度とプルリクの粒度を意識する
