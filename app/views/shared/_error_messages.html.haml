@@ -1,9 +1,9 @@
-- if @user.errors.any?
+- if object.errors.any?
   #error_explanation
     .alert.alert-danger
       -# 単純に改行して書くと出力も改行されて出力されるのでテストでこける
-      ="The form contains #{ pluralize(@user.errors.count, 'error') }."
+      = "The form contains #{ pluralize(object.errors.count, 'error') }."
 
     %ul 
-      - @user.errors.full_messages.each do |msg|
+      - object.errors.full_messages.each do |msg|
         %li= msg
